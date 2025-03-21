@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Всё о нейросетях - Новости</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>НЕЙРОСЕТИ</h1>
+        <div class="poisk">
+            <label for="search">&#128269</label>
+            <input id="search" placeholder="Поиск...">
+        </div>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="learning.html">Обучение</a></li>
+            <li><a href="api.html">API и инструменты</a></li>
+            <li><a href="about.html">О нас</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="news">
+            <h1>Н О В О С Т И</h1>
+            <h2>Главные новости:</h2>
+            <div class="cards">
+                <a href="sections/news/news_1.html">
+                    <div class="card">
+                        <img src="pictures/news/gemini.webp" alt="Google ограничивает ответы Gemini на политические вопросы">
+                        <p>Google ограничивает ответы Gemini на политические вопросы &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_2.html">
+                    <div class="card">
+                        <img src="pictures/news/amazon-robot-scaled-1-e1650639367454.jpg" alt="Amazon формирует элитную команду для развития агентного ИИ">
+                        <p>Amazon формирует элитную команду для развития агентного ИИ &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_3.html">
+                    <div class="card">
+                        <img src="pictures/news/wild-animals.webp" alt="Google отрыла ИИ-модель для идентификации диких животных">
+                        <p>Google отрыла ИИ-модель для идентификации диких животных &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_4.html">
+                    <div class="card">
+                        <img src="pictures/news/mistral.webp" alt="Глава Mistral призывает Европу инвестировать в инфраструктуру ИИ">
+                        <p>Глава Mistral призывает Европу инвестировать в инфраструктуру ИИ &#8594</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="cards">
+                <a href="sections/news/news_5.html">
+                    <div class="card">
+                        <img src="pictures/news/mouse.jpeg" alt="Представлена умная мышь со встроенным DeepSeek: как она работает">
+                        <p>Представлена умная мышь со встроенным DeepSeek: как она работает &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_6.html">
+                    <div class="card">
+                        <img src="pictures/news/metal.jpg" alt="Российская нейросеть найдет трещины в уставшем металле">
+                        <p>Российская нейросеть найдет трещины в уставшем металле &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_7.html">
+                    <div class="card">
+                        <img src="pictures/news/photo.jpg" alt="Новая технология улучшит старые видео: как она работает">
+                        <p>Новая технология улучшит старые видео: как она работает &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_8.html">
+                    <div class="card">
+                        <img src="pictures/news/kigorgubiytsa.jpg" alt="Google отказалась от обещания не использовать ИИ для оружия: в чем дело">
+                        <p>Google отказалась от обещания не использовать ИИ для оружия: в чем дело &#8594</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="articles">
+            <h2>Прочие новости:</h2>
+            <ul>
+                <li><a href="#">В России определят симптомы депрессии с помощью новой технологии</a></li>
+                <li><a href="#">Опрос: каждый восьмой россиянин боится ИИ</a></li>
+                <li><a href="#">Perplexity выпустила свой Deep Research: чем он отличается от решения OpenAI</a></li>
+                <li><a href="#">Россияне рассказали, для чего они используют ChatGPT</a></li>
+            </ul> 
+        </section>
+        <section id="about-us">
+            <h2>О НАС:</h2>
+            <div class="columns">
+                <div class="column">
+                    <p>&#9742 8(800)555-35-35</p>
+                    <p>&#9993 neyroseti@gmail.com</p>
+                </div>
+                <div class="column">
+                    <p><b>Адрес:</b> Загородное шоссе, д. 2</p>
+                    <p><b>Автор:</b> Хрущов Лев Фёдорович</p>
+                </div>
+            </div>
+            <div class="showSendStatus"></div>
+            <input type="email" placeholder="Оставьте почту для обратной связи..." id="email">
+            <button id="continue">Продолжить...</button>
+            <ul>
+                <li><input type="text" placeholder="Введите фамилию: " id="surname"></li>
+                <li><input type="text" placeholder="Введите имя: " id="name"></li>
+                <li><input type="text" placeholder="Введите отчество (при наличии): " id="otchestvo"></li>
+                <li><input type="text" placeholder="Введите текст обращения..." id="text"></li>
+                <li><button type="submit" id="send">ОТПРАВИТЬ</button></li>
+            </ul>
+            <p id="show-error"></p>
+            <h3>© Все права защищены.</h3>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Всё о нейросетях - Курсы и обучение</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>НЕЙРОСЕТИ</h1>
+        <div class="poisk">
+            <label for="search">&#128269</label>
+            <input id="search" placeholder="Поиск...">
+        </div>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="learning.html">Обучение</a></li>
+            <li><a href="api.html">API и инструменты</a></li>
+            <li><a href="about.html">О нас</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="news">
+            <h1>О Б У Ч Е Н И Е</h1>
+            <h2>Видеоуроки:</h2>
+            <div class="videos">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PpBt7tnIAM4?si=W9uOf8O93vAcjzgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wzIOl4hWP3U?si=VfGFYEpHySnaa91E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rcFKdG6P_ww?si=RIBhZlu1acFyRfSD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X7xvzdxuAoc?si=397A-TR_9wE4XL3F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="articles">
+            <h2>Курсы:</h2>
+            <ul>
+                <li><a href="https://stepik.org/course/193510/promo">Курс от Stepik "Нейросети для новичков"</a></li>
+                <li><a href="https://skillbox.ru/course/neural-networks/?utm_source=yandex&utm_medium=cpc&utm_campaign=2887_neural-networks_yandex_cpc_master-campaign_course_ru_all_skillbox_117014016&utm_content=adg_5526319043|ad_16742708399|ph_54009980754|key_---autotargeting|dev_desktop|pst_premium_2|rgnid_213_Москва|placement_none|creative_{creative_name}&utm_term=---autotargeting&etext=2202.ipZr7Rrno3-MAwFFbSaxNmJ1heE3mO8Nqz-tlq8OYQ546d5viIAknzFwK4yWNQap7xdZCQJi_jCvmkQaNk3T-GhqeWxyamR3dGhzeG1qdWw.58854d7e87b179c36c71bfa80c909120b79e2542&yclid=12940258284776194047">Курс от Skillbox "Нейросети. Практический курс"</a></li>
+                <li><a href="https://designacademy.ru/masterclass/neyroseti-v-dizayne/?utm_source=yandex&utm_medium=cpc&utm_campaign=117159157&utm_content=5529190989|16758306976&utm_term=---autotargeting|premium|4&etext=2202.ipZr7Rrno3-MAwFFbSaxNmJ1heE3mO8Nqz-tlq8OYQ546d5viIAknzFwK4yWNQap7xdZCQJi_jCvmkQaNk3T-GhqeWxyamR3dGhzeG1qdWw.58854d7e87b179c36c71bfa80c909120b79e2542&yclid=6165276669233594367">Мастер-класс от Академической школы дизайна "Нейросети в дизайне"</a></li>
+                <li><a href="https://practicum.yandex.ru/catalog/neyroseti/">Курс от Яндекс.Практикум «YandexGPT для начинающих»</a></li>
+            </ul> 
+        </section>
+        <section id="about-us">
+            <h2>О НАС:</h2>
+            <div class="columns">
+                <div class="column">
+                    <p>&#9742 8(800)555-35-35</p>
+                    <p>&#9993 neyroseti@gmail.com</p>
+                </div>
+                <div class="column">
+                    <p><b>Адрес:</b> Загородное шоссе, д. 2</p>
+                    <p><b>Автор:</b> Хрущов Лев Фёдорович</p>
+                </div>
+            </div>
+            <div class="showSendStatus"></div>
+            <input type="email" placeholder="Оставьте почту для обратной связи..." id="email">
+            <button id="continue">Продолжить...</button>
+            <ul>
+                <li><input type="text" placeholder="Введите фамилию: " id="surname"></li>
+                <li><input type="text" placeholder="Введите имя: " id="name"></li>
+                <li><input type="text" placeholder="Введите отчество (при наличии): " id="otchestvo"></li>
+                <li><input type="text" placeholder="Введите текст обращения..." id="text"></li>
+                <li><button type="submit" id="send">ОТПРАВИТЬ</button></li>
+            </ul>
+            <p id="show-error"></p>
+            <h3>© Все права защищены.</h3>
+        </section>
+    </div>
+</body>
+</html>

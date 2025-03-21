@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Всё о нейросетях - Главная</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>НЕЙРОСЕТИ</h1>
+        <div class="poisk">
+            <label for="search">&#128269</label>
+            <input id="search" placeholder="Поиск...">
+        </div>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="learning.html">Обучение</a></li>
+            <li><a href="api.html">API и инструменты</a></li>
+            <li><a href="about.html">О нас</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="title">
+            <h1>Г Л А В Н А Я</h1>
+            <h3>Нейросети: что это такое и для чего они нужны</h3>
+            <img class="title-photo" src="pictures/title_photo.jpg">
+            <p class="description">Искусственная нейросеть (нейронная сеть) — это программа, которая повторяет модель человеческих нейронных связей. На их основе создают обучаемые программы, которые можно научить распознавать или генерировать контент. Принцип действия нейросети не похож на классическую программу.</p>
+            <!-- <a href="#about"><button id="showInfoButton">Подробнее...</button></a> -->
+            <h2>Нейросети бывают:</h2>
+            <ul id="links">
+                <li>
+                    <p>Текстовые (чат-боты):</p>
+                    <ul>
+                        <li><a href="https://chat.openai.com/">ChatGPT</a></li>
+                        <li><a href="https://chat.deepseek.com">DeepSeek</a></li>
+                        <li><a href="https://gemini.google.com">Gemini</a></li>
+                        <li><a href="https://claude.ai/">Claude</a></li>
+                        <li><a href="https://x.ai/grok">Grok AI</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Графические:</p>
+                    <ul>
+                        <li><a href="https://www.midjourney.com">MidJourney</a></li>
+                        <li><a href="https://stabledifffusion.com/ru/tools/ai-image-generator">Stabble Diffusion</a></li>
+                        <li><a href="https://www.seaart.ai">SeaArt</a></li>
+                        <li><a href="https://dalle.com.ru">DALL-E</a></li>
+                        <li><a href="https://shedevrum.ai">Шедеврум</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Музыкальные</p>
+                    <ul>
+                        <li><a href="https://suno.com/home">Suno AI</a></li>
+                        <li><a href="https://www.udio.com">Udio</a></li>
+                        <li><a href="https://www.riffusion.com/?filter=staff-picks">Riffusion</a></li>
+                        <li><a href="https://www.media.io">Media.io</a></li>
+                        <li><a href="https://www.loudly.com">Loudly</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Для программирования</p>
+                    <ul>
+                        <li><a href="https://github.com/features/copilot">Copilot</a></li>
+                        <li><a href="https://www.tabnine.com/install/">Tablnine</a></li>
+                        <li><a href="https://fig.io/">Fig</a></li>
+                        <li><a href="https://mintlify.com">Mintlify</a></li>
+                        <li><a href="https://snyk.io/product/snyk-code/">Snyk Code</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="news">
+            <h2>НОВОСТИ ИЗ МИРА ИИ:</h2>
+            <div class="cards">
+                <a href="sections/news/news_1.html">
+                    <div class="card">
+                        <img src="pictures/news/gemini.webp" alt="Google ограничивает ответы Gemini на политические вопросы">
+                        <p>Google ограничивает ответы Gemini на политические вопросы &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_2.html">
+                    <div class="card">
+                        <img src="pictures/news/amazon-robot-scaled-1-e1650639367454.jpg" alt="Amazon формирует элитную команду для развития агентного ИИ">
+                        <p>Amazon формирует элитную команду для развития агентного ИИ &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_3.html">
+                    <div class="card">
+                        <img src="pictures/news/wild-animals.webp" alt="Google отрыла ИИ-модель для идентификации диких животных">
+                        <p>Google отрыла ИИ-модель для идентификации диких животных &#8594</p>
+                    </div>
+                </a>
+
+                <a href="sections/news/news_4.html">
+                    <div class="card">
+                        <img src="pictures/news/mistral.webp" alt="Глава Mistral призывает Европу инвестировать в инфраструктуру ИИ">
+                        <p>Глава Mistral призывает Европу инвестировать в инфраструктуру ИИ &#8594</p>
+                    </div>
+                </a>
+            </div>
+            <h3><a href="news.html">Посмотреть все новости&#8594</a></h3>
+        </section>
+        <section id="articles">
+            <h2>СТАТЬИ ОБ ИИ:</h2>
+            <ul>
+                <li><a href="https://vc.ru/ai/1862011-ii-v-povsednevnoi-zhizni-kak-tehnologii-uproshayut-rutinu">ИИ в повседневной жизни: как технологии упрощают рутину</a></li>
+                <li><a href="https://roscongress.org/materials/trendy-i-razvitie-iskusstvennogo-intellekta-ii/">Тренды и развитие искусственного интеллекта (ИИ)</a></li>
+                <li><a href="https://practicum.yandex.ru/blog/chto-takoe-iskusstvennyi-intellekt/">Второй разум: как развивается искусственный интеллект и что его ждёт в будущем</a></li>
+                <li><a href="https://ai.mitup.ru/journal/kak-chat-boty-lechat-tvorcheskij-krizis-i-pomogayut-pisatelyam/">Как чат-боты “лечат” творческий кризис и помогают писателям</a></li>
+            </ul> 
+        </section>
+        <section id="about-us">
+            <h2>О НАС:</h2>
+            <div class="columns">
+                <div class="column">
+                    <p>&#9742 8(800)555-35-35</p>
+                    <p>&#9993 neyroseti@gmail.com</p>
+                </div>
+                <div class="column">
+                    <p><b>Адрес:</b> Загородное шоссе, д. 2</p>
+                    <p><b>Автор:</b> Хрущов Лев Фёдорович</p>
+                </div>
+            </div>
+            <div class="showSendStatus"></div>
+            <input type="email" placeholder="Оставьте почту для обратной связи..." id="email">
+            <button id="continue">Продолжить...</button>
+            <ul>
+                <li><input type="text" placeholder="Введите фамилию: " id="surname"></li>
+                <li><input type="text" placeholder="Введите имя: " id="name"></li>
+                <li><input type="text" placeholder="Введите отчество (при наличии): " id="otchestvo"></li>
+                <li><input type="text" placeholder="Введите текст обращения..." id="text"></li>
+                <li><button type="submit" id="send">ОТПРАВИТЬ</button></li>
+            </ul>
+            <p id="show-error"></p>
+            <h3>© Все права защищены.</h3>
+        </section>
+    </div>
+</body>
+</html>

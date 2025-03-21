@@ -1,0 +1,292 @@
+/* Устанавливаем шрифт */
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+/* Фоновое изображение */
+body {
+    background: url("pictures/bg.gif") no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+}
+
+a {
+    color: blue; /* Цвет ссылок */
+}
+
+a:hover {
+    color: orangered; /* Цвет ссылок при наведении */
+}
+
+/* Заголовок сайта */
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: beige;
+    border: 2px grey solid;
+    height: 100px;
+    border-radius: 15px;
+    display: flex; 
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+.header h1 {
+    margin: 0; 
+    padding: 0;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header li {
+    margin-right: 15px;
+}
+
+/* Поисковая строка */
+.poisk {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.poisk label {
+    font-size: 20px; 
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.poisk input {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Основная часть сайта */
+.content {
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+    max-width: 1000px;
+    margin-top: -75px;
+}
+
+.text-block {
+    text-align: left;
+    max-width: 850px;
+    margin: auto;
+}
+
+section {
+    margin-top: 75px;
+}
+
+h1 {
+    padding-top: 50px;
+    margin-bottom: 5px;
+    font-size: 65px;
+}
+
+.title-photo {
+    padding: 25px;
+    width: 75%;
+    margin-top: 5px;
+}
+
+.description {
+    color: grey;
+    max-width: 500px;
+    margin: auto;
+    font-style: italic;
+}
+
+#showInfoButton {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px black solid;
+    color: black;
+}
+
+#showInfoButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#title h2 {
+    margin-top: 50px;
+}
+
+#links {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#links p {
+    cursor: pointer;
+}
+
+#links li {
+    margin-right: 25px;
+}
+
+#links ul {
+    text-align: left;
+}
+
+/* Карточки новостей */
+.cards {
+    display: inline-flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+
+.cards a {
+    color: black;
+}
+
+.card {
+    width: 215px;
+    min-width: 215px;
+    border: 1px black solid;
+    margin-right: 25px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.card p {
+    margin-top: 0;
+}
+
+.card img {
+    width: 215px;
+}
+
+#articles {
+    padding: 15px;
+}
+
+/* Ссылки на статьи */
+#articles a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+    width: 100%; 
+    padding: 5px 0;
+}
+
+#articles ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#articles li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 40px;
+    padding: 5px 0;
+}
+
+#articles a::after {
+    content: "→";
+    margin-left: 10px;
+    color: blue;
+}
+
+.see-all {
+    margin-left: 400px;
+}
+
+.arrow {
+    margin-right: 40px;
+}
+
+/* Раздел "О нас" */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px black solid;
+
+}
+
+button {
+    height: 28px;
+    background-color: transparent;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#show-error {
+    color: red;
+}
+
+#about-us h3 {
+    padding-bottom: 25px;
+}
+
+#about-us li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+#text {
+    width: 300px;
+    height: 125px;
+}
+
+/* Настойка встроенных видео с ютуба */
+.videos iframe{
+    width: 450px;
+}
+
+.contacts {
+    list-style: none;
+}
+
+/* Оформление блоков инструментов */
+.instrument {
+    margin-top: 50px;
+}
+
+.instrument ul {
+    text-align: left;
+}
+
+.instrument img {
+    width: 750px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.instrument p, .instrument ul {
+    width: 750px;
+    margin: auto;
+}

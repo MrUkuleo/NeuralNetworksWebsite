@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Всё о нейросетях - О нас и контакты</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>НЕЙРОСЕТИ</h1>
+        <div class="poisk">
+            <label for="search">&#128269</label>
+            <input id="search" placeholder="Поиск...">
+        </div>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="learning.html">Обучение</a></li>
+            <li><a href="api.html">API и инструменты</a></li>
+            <li><a href="about.html">О нас</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="title">
+            <h1>О НАС</h1>
+            <p class="description">По прогнозам футуролога Рэя Курцвейла, к 2029 году искусственный интеллект сможет пройти тест Тьюринга — и будет невозможно отличить сознание машины от человеческого.</p>
+            <img src="pictures/title_photo_2.jpg" class="title-photo">
+            <p>Автор сайта: Хрущов Лев Фёдорович</p>
+            <p>Заказчик: Мартыненко Александр Николаевич</p>
+            <h2>Контакты для связи:</h2>
+            <ul class="contacts">
+                <li><b>E-mail: </b>neyroseti@gmail.com</li>
+                <li><b>Телефон: </b>8(800)555-35-35</li>
+                <li><a href="https://vk.com/call?id=585910193">BK</a></li>
+                <li><a href="https://t.me/mister_ukuleo">Telegram</a></li>
+            </ul>
+        </section>
+        <section id="about-us">
+            <div class="showSendStatus"></div>
+            <input type="email" placeholder="Оставьте почту для обратной связи..." id="email">
+            <button id="continue">Продолжить...</button>
+            <ul>
+                <li><input type="text" placeholder="Введите фамилию: " id="surname"></li>
+                <li><input type="text" placeholder="Введите имя: " id="name"></li>
+                <li><input type="text" placeholder="Введите отчество (при наличии): " id="otchestvo"></li>
+                <li><input type="text" placeholder="Введите текст обращения..." id="text"></li>
+                <li><button type="submit" id="send">ОТПРАВИТЬ</button></li>
+            </ul>
+            <p id="show-error"></p>
+            <h3>© Все права защищены.</h3>
+        </section>
+    </div>
+</body>
+</html>

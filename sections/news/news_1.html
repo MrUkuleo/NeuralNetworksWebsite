@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google ограничивает ответы Gemini на политические вопросы</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="../../icon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>НЕЙРОСЕТИ</h1>
+        <div class="poisk">
+            <label for="search">&#128269</label>
+            <input id="search" placeholder="Поиск...">
+        </div>
+        <ul>
+            <li><a href="../../index.html">Главная</a></li>
+            <li><a href="../../news.html">Новости</a></li>
+            <li><a href="../../learning.html">Обучение</a></li>
+            <li><a href="../../api.html">API и инструменты</a></li>
+            <li><a href="../../about.html">О нас</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="title">
+            <h1>Google ограничивает ответы Gemini на политические вопросы</h1>
+            <h3>Автор: Ирина Задорожная</h3>
+            <img class="title-photo" src="../../pictures/news/gemini.webp" style="width: 510px;">
+            <div class="text-block">
+                <p>При попытке задать определенные политические вопросы, ИИ-чатбот Google Gemini часто отвечает, что «не может помочь с ответами о выборах и политических деятелях прямо сейчас». При этом другие чатботы, включая Claude от Anthropic, Meta AI от Meta и ChatGPT от OpenAI, стабильно отвечали на те же самые вопросы, как показало тестирование TechCrunch.</p>
+                <p>В марте 2024 года Google объявила, что Gemini не будет отвечать на запросы, связанные с выборами, в преддверии нескольких выборов, проходящих в США, Индии и других странах. Многие ИИ-компании приняли аналогичные временные ограничения, опасаясь негативной реакции в случае, если их чатботы допустят ошибку. Теперь, однако, Google начинает выглядеть белой вороной.</p>
+                <p>Крупные выборы прошлого года уже состоялись, но компания публично не объявила о планах изменить подход Gemini к конкретным политическим темам. Представитель Google отказался отвечать на вопросы TechCrunch о том, обновила ли Google свою политику в отношении политического дискурса Gemini.</p>
+                <p>Очевидно лишь то, что Gemini иногда испытывает трудности — или прямо отказывается — предоставлять фактическую политическую информацию. По состоянию на утро среды, Gemini уклонялся от ответа, когда его просили назвать действующего президента и вице-президента США, согласно тестированию TechCrunch.</p>
+                <p>В одном случае во время тестов TechCrunch, Gemini назвал Дональда Дж. Трампа «бывшим президентом», а затем отказался отвечать на уточняющий последующий вопрос. Представитель Google сказал, что чатбот запутался из-за непоследовательных сроков правления Трампа, и что Google работает над исправлением этой ошибки.</p>
+            </div>
+            <ul style="list-style-type: none; ">
+                <li><a href="../../news.html">К другим новостям</a></li>
+                <li><a href="../../index.html">На главную</a></li>
+            </ul>
+            
+        <section id="about-us">
+            <h2>О НАС:</h2>
+            <div class="columns">
+                <div class="column">
+                    <p>&#9742 8(800)555-35-35</p>
+                    <p>&#9993 neyroseti@gmail.com</p>
+                </div>
+                <div class="column">
+                    <p><b>Адрес:</b> Загородное шоссе, д. 2</p>
+                    <p><b>Автор:</b> Хрущов Лев Фёдорович</p>
+                </div>
+            </div>
+            <input type="email" placeholder="Оставьте почту для обратной связи..." id="email">
+            <button id="continue">Продолжить...</button>
+            <ul>
+                <li><input type="text" placeholder="Введите фамилию: " id="surname"></li>
+                <li><input type="text" placeholder="Введите имя: " id="name"></li>
+                <li><input type="text" placeholder="Введите отчество (при наличии): " id="otchestvo"></li>
+                <li><input type="text" placeholder="Введите текст обращения..." id="text"></li>
+                <li><button type="submit" id="send">ОТПРАВИТЬ</button></li>
+            </ul>
+            <p id="show-error"></p>
+            <h3>© Все права защищены.</h3>
+        </section>
+    </div>
+</body>
+</html>
